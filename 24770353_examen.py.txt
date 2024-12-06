@@ -1,0 +1,40 @@
+
+a)Dado que el valor de e^x se puede calcular por aproximación de la siguiente suma:
+e= 1+x+x^2/2!+x^3/3!+.....+x^n/n!
+Realizar el programa que tome un valor para X y calcule e^x hasta que x^n/n! (error de aproximación) sea menor a 0.00001
+
+
+print("Calcular x y e^x")
+X= int(input("Ingrese un valor para X: ")) 
+N = int(input("Ingrese el valor de N: "))
+
+E = 1  
+
+for n in range(1, N+1):
+  E += x**n / N
+
+print("El valor de E(x) es:", E)
+
+
+
+print("Calcular x y e^x")
+X= int(input("Ingrese un valor para X: ")) 
+E = 1  
+V = 1
+N = 1
+
+while (V) >= 0.00001:
+    V = (x ** N) / N
+    E += V
+    N += 1
+
+    return E
+
+X = float (input("Ingrese el valor de X: ")
+E = E*X
+          
+print("El valor de e^x es:", E)
+
+
+
+

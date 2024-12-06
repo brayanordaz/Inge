@@ -1,0 +1,7 @@
+
+    exponencial = 1
+    s = 1
+    n = 1
+    while (s) >= 0.00001:
+           s = (x ** n) / !(n)
+           exponencial

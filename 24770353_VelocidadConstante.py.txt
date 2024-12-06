@@ -1,0 +1,33 @@
+from re import T
+velocidad = input("velocidad constante (m/s)= ")
+distancia = input("distancia recorrida (m)= ")
+distancia = input("tiempo (s) = ")
+
+#distancia recorrida= velocidad constante * tiempo
+
+#Definir variables
+v = 56
+t = 30
+
+#Calcular la distancia
+d = v * t
+
+#print resultado:
+print("la distancia recorrida es: ", d)
+
+     
+velocidad constante (m/s)= 56
+distancia recorrida (m)= 15
+tiempo (s) = 30
+la distancia recorrida es:  1680
+
+Ejercicio
+Se desea calcular la distancia recorrida (m) por un auto que tiene una velocidad constante (m/s) durante un tiempo f(x) Considerar que es un Movimiento Rectilineo Uniforme
+
+Datos
+Distancia recorrida = input(m)
+
+Velocidad constante = input(m/s)
+
+Tiempo = input(s)
+

@@ -1,0 +1,75 @@
+#Instrucciones Básicas en un Algoritmo
+14 - (7 + 4 * 3 - [(-2) * 2 * 2 - 6)] + (22 + 6 - 5 * 3) + 3 - (5 - 23 div 2)
+
+14 - (7 + 4 * 3 - [-4 * 2 - 6)] + (28 - 15) + 3 - (5 - 11)
+
+14 - (7 + 4 * 3 - [(- 8 - 6)] + (13) + 3 - (- 6)
+
+14 - (7 + 12 - [(-14)] + (13) + 3 - (- 6)
+
+14 - (19 - [(-14)] + (13) + 3 - (- 6)
+
+14 - 33 + 13 + 3 - (-6)
+
+-19 + 13 + 3 - (-6)
+
+-6 + 3 - (-6)
+
+-3 - (-6)
+
+3
+
+Leer
+
+--> Solicitar un dato inicial
+
+--> Requerir un dato de entrada
+
+Leer <Dato, dato2, dato3,...)
+
+Leer datos es facil con la función: input()
+
+Esto nos devolverá una cadena de texto
+La cuál debemos capturar en alguna variable
+texto= input()
+
+También input puede tener un parámetro indicado por el usuario
+que debe ingresar.
+mes=input("Ingrese mes: ")
+
+Conversiones de tipo de datos
+La función input() retoma un texto
+Si no queremos que retome un texto y sea un entero tenemos que convertirlo
+Usando la función int()
+numero=input() #Esto es un número string (cadena) entero=int(numero)
+
+numero=input() decimal= float(input())
+
+ASIGNAR
+variable <-
+
+numero=5 #Esto asigna 5 a la variable
+
+ESCRIBIR
+--> Mostrar resultado --> Visualizar el resultado --> Imprimir el resultado
+
+Escribir
+
+numero=5 print(numero)
+
+dia=15 mes="Septiembre" anio="2024"
+
+print(dia,mes,anio) print("dia: {} mes: {} anio: {}", formart(dia,mes,anio))
+
+
+# prompt: dia=15
+# mes="Septiembre"
+# anio="2024"
+# print(dia,mes,anio)
+# print("dia: {} mes: {} anio: {}", formart(dia,mes,anio))
+
+dia=15
+mes="Septiembre"
+anio="2024"
+print(dia,mes,anio)
+print("dia: {} mes: {} anio: {}".format(dia,mes,anio))

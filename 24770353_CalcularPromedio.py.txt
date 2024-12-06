@@ -1,0 +1,61 @@
+
+#Se requiere obtener el promedio simple de un estudiante a partir de sus tres calificaciones parciales N1, N2, N3
+
+print("---------------------------------------------------------------")
+print("---------------PROGRAMA QUE CALCULA EL PROMEDIO----------------")
+print("---------------------------------------------------------------")
+
+#Datos de entrada
+print("Ingrese las 3 calificaciones del alumno N1, N2 y N3")
+N1=int(input("N1: "))
+N2=int(input("N2: "))
+N3=int(input("N3: "))
+
+#Proceso
+Promedio=(N1+N2+N3)/3
+
+#Salida
+print("El promedio del alumno es: ", Promedio)
+
+    
+#Se requiere elaborar un programa que solicite el número de respuestas correctas, incorrectas y en blanco correspondientes a alumnos, y muestre su puntaje final considerando que por cada respuesta correcta tendrá 3 puntos, respuestas incorrectas -1 y respuestas en blanco 0.
+
+
+print("---------------------------------------------------------------")
+print("------------PROGRAMA QUE CALCULA EL PUNTAJE FINAL--------------")
+print("---------------------------------------------------------------")
+
+#Datos de entrada
+print("Ingrese las respuestas correctas, incorrectas y en blanco del alumno")
+Rc=int(input("Rc: "))
+Ri=int(input("Ri: "))
+Rb=int(input("Rb: "))
+
+#Proceso
+Puntaje=(Rc*3)+(Ri*-1)+(Rb*0)
+
+#Salida
+print("El puntaje del alumno es: ", Puntaje )
+
+
+#Se tienen los puntos A y B en el cuadrante positivo del plano cartesiano, elabore el programa que permita obtener la distancia entre A y B
+
+D = √(Ax -Bx)^2 + (Ay -By)^2
+
+print("-----------------------------------------------------------------")
+print("----------------PROGRAMA QUE CALCULA LA DISTANCIA----------------")
+print("-----------------------------------------------------------------")
+
+#Datos de entrada
+print("Ingrese los puntos A y B en el cuadrante positivo del plano cartesiano")
+Ax
+
+    
+
+import matplotlib.pyplot as plt
+import numpy as np
+%matplotlib inline
+
+plt.plot ([5, 2], [1, 4])
+plt.text (3, 8, "distancia es ", color="blue")
+plt.show()

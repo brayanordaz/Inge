@@ -1,0 +1,52 @@
+Un proveedor de estereos ofrece un descuento de 10% sobre el precio de IVA de algún equipo que este cuesta $2000.00 o más, además independientemente de esto, ofrece un 5% de descuento adicional sobre el precio si la marca es "CHONY", determinar cuanto pagará, con IVA incluido un cliente cualquiera por la compra de su estereo.
+IVA=20%
+
+print("--------Ingrese el precio del estereo--------")
+p=int(input())
+m=CHONY
+m=float(input(Ingrese la marca del estereo))
+
+Iva=0.12
+pi=p*Iva
+
+if p > 2000 and m :
+   d=pi
+   dz=pi*0.90
+   da=dz*0.95
+ 
+   print(" d es: ", d)
+   print(" dz es: ", dz)
+   print(" da es: ", da)
+
+else:
+   print("Lo que pagara es: ", da)
+
+if p > 2000  :
+   d=pi
+   dz=pi*0.90
+ 
+   print(" d es: ", d)
+   print(" dz es: ", dz)
+
+else:
+   print("Lo que pagara es: ", dz)
+
+if p < 2000 and m :
+   d=pi
+   df=d*0.95
+   
+   print(" d es: ", d)
+   print(" df es: ", df)
+
+else:
+   print("Lo que pagara es: ", df)
+
+ if p < 2000 :
+   d=pi
+ 
+   print(" d es: ", d)
+
+else:
+   print("Lo que pagara es: ", d)
+
+
